@@ -1,0 +1,372 @@
+@font-face {
+    font-family: "Helvetica-Light";
+    src: url ("./Fonts/HelveticaUltraLt_0.ttf") format('truetype');
+ }
+ @font-face {
+    font-family: "ps";
+    src: url("./Fonts/ps.ttf")format('truetype');
+ }
+ @font-face {
+    font-family: "Roboto-light";
+    src: url("./Fonts/Roboto-Light_0.ttf")format('truetype');
+ }
+ @font-face {
+    font-family: "Roboto-Regular";
+    src: url("./Fonts/Roboto-Regular_0.ttf")format('truetype');
+ }
+ body{margin: 0px;}
+
+ 
+#logo {
+    height: 200px ;
+    width: 300px ;
+}
+#logo img .cls-5 {
+    font-size: 25.24px !important;
+}
+
+#menu{
+    display: flex;
+    justify-content:  space-between;
+    margin: auto;
+    width: 80%;
+    
+}
+
+.Inicial{
+    background-image: url("./imagens/index-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+   
+    
+}
+.Inicial #titulo{
+    margin: auto;
+    width: 60%;
+    
+    color: white;
+   
+}
+
+
+
+.Inicial #titulo h2 {
+    font-weight: 100;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+}
+
+.Inicial #menu .menu-links a  {
+    color: white;
+    font-family: 'Roboto-Regular';
+    font-size: 30px;
+    
+    
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 80Px ;
+    margin-bottom: 10px;
+    letter-spacing: 6px;
+    font-family: 'Inter', sans-serif;
+}
+.Inicial #menu {
+    padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.cadastro{
+    background-color: #29abe2;
+    height: 490px;
+   
+    
+}
+
+.cadastro .container {
+    max-width:400px;
+    width:90%;
+    padding:45px;
+    margin: auto;
+    width: 50%;
+}
+
+.cadastro .container h2 {
+    text-align: center ;
+    font-size: 35px;
+}
+
+.cadastro h2 {
+font-family: 'Inter', sans-serif;
+color: white;
+margin-top: 0PX;}
+
+.cadastro .container .wrap {
+    display: flex;
+flex-direction: column;}
+
+.cadastro .container label{
+    font-family: Roboto-Regular;
+    color: white;
+}
+.cadastro .container input{
+    border: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    border-bottom: 1px solid white;
+    
+    background: transparent;
+}
+
+.cadastro .container #botao-cadastrar {
+    text-align: center;
+    margin-top: 20px;
+
+   
+    
+    
+    
+}
+.cadastro ::placeholder{
+    color: white;
+}
+
+.cadastro button{
+    color: #29abe2;
+    background-color: #012d51;
+    border: 0px;
+    padding:  10px 35px;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+
+
+
+
+.cadastro .container input focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.saida-cadastro {
+    text-align: center;
+    height: 490px;
+}
+.saida-cadastro h2 {
+    color: #29abe2;
+    font-family: 'Inter', sans-serif;
+    margin-top:20PX;
+}
+.saida-cadastro #tabela-cadastro {
+    width: 50% !important;margin: auto;
+}
+
+.saida-cadastro table ,thead ,tr{
+    border: 1px;
+}
+.saida-cadastro table, thead, td{
+    
+        border: 1px solid #29abe2;
+        border-collapse: collapse;
+        color: #012d51;
+      
+}
+
+.saida-cadastro table, tbody, td{
+    
+   color:#808080;
+   height: 40px;
+   width: 60px;
+   
+  
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rodape {
+    background-image: url(./imagens/rodape-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25vh;
+}
+
+.rodape p {
+    
+    text-align: center;
+    font-family: 'Roboto-light';
+    color: white;
+    font-size: 25 ;
+}
+.rodape #rodape-p {
+    padding-top: 35px;
+}
+
+
+
+
+@media (max-width:1024px) {
+    .Inicial{
+        background-image: url("./imagens/index-image.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 90vh;
+        width: 190vh;
+}
+.Inicial #menu {
+    padding-top: 20px;
+}
+.cadastro{
+    width: 190vh;
+}
+#menu{
+    display: flex;
+    justify-content:  space-around;
+    margin: auto;
+    width: 90%;
+   
+ 
+}
+
+.Inicial #titulo{
+    margin: auto;
+    width: 100%;
+    
+    color: white;
+   
+}
+.saida-cadastro{
+    width: 190vh;
+}
+.rodape{
+    width: 190vh;
+}}
+
+@media (max-width:425px) {
+    
+    #menu{
+        visibility: hidden;
+        
+    }
+    .Inicial{
+        background-image: url("./imagens/index-image-mobile.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vh;
+        height: 170vh;
+        
+}
+.Inicial #titulo {
+    text-align: center;
+    color: white;
+    }
+
+
+
+.cadastro {
+    width: 125vh;
+    height: 50vh;
+    
+}
+.saida-cadastro{
+    width: 125vh;
+        height: 70vh;
+        
+}
+
+.rodape{
+    background-image: url(./imagens/rodape-mobile.jpg);
+width: 125vh;
+}}
+
+
+
+@media (max-width:768px) {
+
+    .Inicial{
+        background-image: url("./imagens/index-image.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 150vh;
+}
+    .cadastro {
+            width: 150vh;
+            height: 90vh;
+        }
+    
+        .saida-cadastro{
+            width: 150vh;
+               height: 60vh;
+        }
+    
+        .rodape{
+            background-image: url(./imagens/rodape-mobile.jpg);
+            width: 150vh;
+            height: 45vh;
+        }
+    }
+
+
+
+

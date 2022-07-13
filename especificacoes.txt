@@ -1,0 +1,25 @@
+FONTES:
+
+-Est�gio | Prova de sele��o: Helvetica 25 UltraLight Regular
+-T�tulos da p�gina (Cadastro, Lista de cadastro): Helvetica 25 UltraLight Regular
+-Chamada de campo de preenchimento (Nome, E-mail...): Roboto Regular
+-Preenchimento do formul�rio (Fulano Beltrano...) Helvetica Condensed Regular
+-Bot�o (Cadastrar): Helvetica 25 UltraLight Regular
+-Menu (Desktop e Mobile/Tablet): Roboto Regular
+-Tabela:
+	N�meros: Roboto Light
+	T�tulos das colunas (Nome, E-mail...): Roboto Regular
+	Informa��es (Fulano Beltrano...): Helvetica Condensed Regular
+-Rodap�: Roboto Light
+
+CORES:
+-Fundo de cadastro: #29abe2
+-T�tulo do bot�o 'Cadastrar': #29abe2
+-T�tulo 'Lista de Cadastro': #29abe2
+-N�meros da tabela: #012d51
+-Bot�o 'Cadastrar": #012d51
+-T�tulos das colunas da tabela:#012d51
+-Linhas da tabela: #29abe2
+-Informa��es da tabela: #808080
+
+
